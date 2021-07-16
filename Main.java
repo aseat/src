@@ -4,10 +4,10 @@ public class Main {
     h.name = "鬼頭明里";
     h.hp = 100;
     System.out.println("勇者" + h.name + "を生み出しました");
-  Mantago m1 = new mantago();
+  Matango m1 = new Matango();
   m1.hp=50;
   m1.suffix='A';
-  Mantago m2 = new mantago();
+  Matango m2 = new Matango();
   m1.hp=48;
   m1.suffix='B';
     
