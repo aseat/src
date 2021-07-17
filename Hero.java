@@ -3,6 +3,7 @@ import javax.security.sasl.SaslException;
 public class Hero {
   String name;
   int hp;
+  Sword sword;
   // void attack() {}
   void run() {
     System.out.println(this.name + "は、この世から逃げた");
