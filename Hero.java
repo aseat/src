@@ -1,4 +1,3 @@
-import javax.security.sasl.SaslException;
 
 public class Hero {
   String name;
@@ -23,5 +22,8 @@ public class Hero {
   void sleep() {
     this.hp = 100;
     System.out.println(this.name + "は眠って回復したお");
+  }
+  Hero(){
+    this.hp=100;
   }
 } 
