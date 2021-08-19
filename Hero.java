@@ -2,7 +2,6 @@
 public class Hero {
   String name;
   int hp;
-  Sword sword;
   // void attack() {}
   void run() {
     System.out.println(this.name + "は、この世から逃げた");
@@ -23,7 +22,7 @@ public class Hero {
     this.hp = 100;
     System.out.println(this.name + "は眠って回復したお");
   }
-  Hero(){
+  Hero() {
     this.hp=100;
   }
 } 
